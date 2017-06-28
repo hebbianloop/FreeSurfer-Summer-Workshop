@@ -1,0 +1,9 @@
+{
+	"Manufacturer": "Siemens",
+	"ManufacturersModelName": "TrioTim",
+	"MagneticFieldStrength": 3,
+	"FlipAngle": 120,
+	"EchoTime": 0.242,
+	"RepetitionTime": 3.2,
+	"PhaseEncodingDirection": "i-"
+}
