@@ -1,0 +1,140 @@
+Subject Stamp: freesurfer-Darwin-OSX-stable-pub-v6.0.0-2beb96c
+Current Stamp: freesurfer-Darwin-OSX-stable-pub-v6.0.0-2beb96c
+INFO: SUBJECTS_DIR is /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs
+Actual FREESURFER_HOME /Volumes/CFMI-CFS/opt/fs6
+-rw-rw-r-- 1 shad wheel 35195 Jun 29 10:06 /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/scripts/recon-all.log
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+#--------------------------------------------
+#@# Longitudinal Base Subject Creation Thu Jun 29 10:07:38 EDT 2017
+/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02
+\n mri_diff --notallow-pix --notallow-geo /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/rawavg.mgz /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/rawavg.mgz \n
+\n mri_robust_template --mov /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/norm.mgz /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/norm.mgz --lta /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/transforms/sub.01.bl.02_to_sub.01.base.02.lta /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/transforms/sub.01.dh.02_to_sub.01.base.02.lta --template /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/norm_template.mgz --average 1 --sat 4.685 \n
+$Id: mri_robust_template.cpp,v 1.54 2016/05/05 21:17:08 mreuter Exp $
+
+--mov: Using /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/norm.mgz as movable/source volume.
+--mov: Using /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/norm.mgz as movable/source volume.
+    Total: 2 input volumes
+--lta: Will output LTA transforms
+--template: Using /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/norm_template.mgz as template output volume.
+--average: Using method 1 for template computation.
+--sat: Using saturation 4.685 in M-estimator!
+reading source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/norm.mgz'...
+converting source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/norm.mgz' to bspline ...
+MRItoBSpline degree 3
+reading source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/norm.mgz'...
+converting source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/norm.mgz' to bspline ...
+MRItoBSpline degree 3
+Will use TP 2 as random initial target (seed 17489 ).
+
+MultiRegistration::initializing Xforms (init 2 , maxres 0 , iterate 5 , epsit 0.01 ) : 
+
+[init] ========================= TP 1 to TP 2 ==============================
+         Register TP 1 ( /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/norm.mgz )
+          to      TP 2 ( /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/norm.mgz )
+
+
+Input rotation's max deviation from rotation is: 1.4225e-15
+  computing mean coord of TP 2 ( /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/norm.mgz ) 
+   mapping back to rot, err = 3.51083e-16
+  computing mean coord of TP 1 ( /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/norm.mgz ) 
+   mapping back to rot, err = 1.08779e-15
+mapping movs and creating initial template...
+ using median 
+Writing final template: /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/norm_template.mgz
+Writing final transforms (warps etc.)...
+ Determinant( lta[ 0 ]) : 1
+
+ Determinant( lta[ 1 ]) : 1
+
+registration took 1 minutes and 7 seconds.
+
+ Thank you for using RobustTemplate! 
+ If you find it useful and use it for a publication, please cite: 
+
+ Within-Subject Template Estimation for Unbiased Longitudinal Image Analysis
+ M. Reuter, N.J. Schmansky, H.D. Rosas, B. Fischl. NeuroImage 2012.
+ http://dx.doi.org/10.1016/j.neuroimage.2012.02.084
+ http://reuter.mit.edu/papers/reuter-long12.pdf
+
+\n mri_robust_template --mov /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/orig.mgz /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/orig.mgz --average 1 --ixforms /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/transforms/sub.01.bl.02_to_sub.01.base.02.lta /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/transforms/sub.01.dh.02_to_sub.01.base.02.lta --noit --template /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/orig.mgz \n
+$Id: mri_robust_template.cpp,v 1.54 2016/05/05 21:17:08 mreuter Exp $
+
+--mov: Using /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/orig.mgz as movable/source volume.
+--mov: Using /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/orig.mgz as movable/source volume.
+    Total: 2 input volumes
+--average: Using method 1 for template computation.
+--ixforms: Will use init XFORMS.
+--noit: Will output only first template (no iterations)!
+--template: Using /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/orig.mgz as template output volume.
+reading source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/orig.mgz'...
+converting source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/orig.mgz' to bspline ...
+MRItoBSpline degree 3
+reading source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/orig.mgz'...
+converting source '/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02/mri/orig.mgz' to bspline ...
+MRItoBSpline degree 3
+mapping movs and creating initial template...
+ using median 
+Writing final template: /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/orig.mgz
+Writing final transforms (warps etc.)...
+registration took 0 minutes and 27 seconds.
+
+ Thank you for using RobustTemplate! 
+ If you find it useful and use it for a publication, please cite: 
+
+ Within-Subject Template Estimation for Unbiased Longitudinal Image Analysis
+ M. Reuter, N.J. Schmansky, H.D. Rosas, B. Fischl. NeuroImage 2012.
+ http://dx.doi.org/10.1016/j.neuroimage.2012.02.084
+ http://reuter.mit.edu/papers/reuter-long12.pdf
+
+/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/transforms
+\n mri_concatenate_lta -invert1 sub.01.bl.02_to_sub.01.base.02.lta identity.nofile sub.01.base.02_to_sub.01.bl.02.lta \n
+invert the first LTA before applying it 
+Read individual LTAs
+Writing  LTA to file sub.01.base.02_to_sub.01.bl.02.lta...
+mri_concatenate_lta.bin successful.
+\n mri_concatenate_lta -invert1 sub.01.dh.02_to_sub.01.base.02.lta identity.nofile sub.01.base.02_to_sub.01.dh.02.lta \n
+invert the first LTA before applying it 
+Read individual LTAs
+Writing  LTA to file sub.01.base.02_to_sub.01.dh.02.lta...
+mri_concatenate_lta.bin successful.
+#--------------------------------------------
+#@# MotionCor Thu Jun 29 10:09:14 EDT 2017
+\n mri_add_xform_to_header -c /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/transforms/talairach.xfm /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/orig.mgz /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/orig.mgz \n
+INFO: extension is mgz
+#--------------------------------------------
+#@# Talairach Thu Jun 29 10:09:16 EDT 2017
+/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri
+\n mri_nu_correct.mni --no-rescale --i orig.mgz --o orig_nu.mgz --n 1 --proto-iters 1000 --distance 50 \n
+/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri
+/Volumes/CFMI-CFS/opt/fs6/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --n 1 --proto-iters 1000 --distance 50
+nIters 1
+$Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+Thu Jun 29 10:09:17 EDT 2017
+Program nu_correct, built from:
+Package MNI N3, version 1.12.0, compiled by nicks@gust.nmr.mgh.harvard.edu (x86_64-apple-darwin11.4.2) on 2015-06-19 at 15:37:08
+/usr/bin/bc
+tmpdir is ./tmp.mri_nu_correct.mni.56017
+/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri
+mri_convert orig.mgz ./tmp.mri_nu_correct.mni.56017/nu0.mnc -odt float
+mri_convert.bin orig.mgz ./tmp.mri_nu_correct.mni.56017/nu0.mnc -odt float 
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from orig.mgz...
+TR=1900.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+changing data type from uchar to float (noscale = 0)...
+writing to ./tmp.mri_nu_correct.mni.56017/nu0.mnc...
+ 
+--------------------------------------------------------
+Iteration 1 Thu Jun 29 10:09:20 EDT 2017
+nu_correct -clobber ./tmp.mri_nu_correct.mni.56017/nu0.mnc ./tmp.mri_nu_correct.mni.56017/nu1.mnc -tmpdir ./tmp.mri_nu_correct.mni.56017/0/ -iterations 1000 -distance 50
+[shad@trash-can.local:/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.base.02/mri/] [2017-06-29 10:09:20] running:
+  /Volumes/CFMI-CFS/opt/fs6/mni/bin/nu_estimate_np_and_em -parzen -log -sharpen 0.15 0.01 -iterations 1000 -stop 0.001 -shrink 4 -auto_mask -nonotify -b_spline 1.0e-7 -distance 50 -quiet -execute -clobber -nokeeptmp -tmpdir ./tmp.mri_nu_correct.mni.56017/0/ ./tmp.mri_nu_correct.mni.56017/nu0.mnc ./tmp.mri_nu_correct.mni.56017/nu1.imp
+
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done

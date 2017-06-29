@@ -1,0 +1,1 @@
+mri_label2label --srcsubject fsaverage --srclabel /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/fsaverage/label/rh.BA2_exvivo.thresh.label --trgsubject sub.01.dh.02t2 --trglabel ./rh.BA2_exvivo.thresh.label --hemi rh --regmethod surface

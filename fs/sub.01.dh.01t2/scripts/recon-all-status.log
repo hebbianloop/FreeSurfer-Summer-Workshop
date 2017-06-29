@@ -1,0 +1,255 @@
+status file for recon-all
+Tue Jun 27 21:55:21 EDT 2017
+#@# T2/FLAIR Input Tue Jun 27 21:55:31 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Tue Jun 27 21:55:45 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Tue Jun 27 22:29:13 EDT 2017
+#@# MotionCor Tue Jun 27 22:29:13 EDT 2017
+#@# Talairach Tue Jun 27 22:29:16 EDT 2017
+#@# Talairach Failure Detection Tue Jun 27 22:29:16 EDT 2017
+#@# Nu Intensity Correction Tue Jun 27 22:29:17 EDT 2017
+#@# Intensity Normalization Tue Jun 27 22:29:17 EDT 2017
+#@# Skull Stripping Tue Jun 27 22:29:17 EDT 2017
+#@# EM Registration Tue Jun 27 22:29:17 EDT 2017
+#@# CA Normalize Tue Jun 27 22:29:17 EDT 2017
+#@# CA Reg Tue Jun 27 22:29:18 EDT 2017
+#@# SubCort Seg Tue Jun 27 22:29:18 EDT 2017
+#@# Merge ASeg Tue Jun 27 22:29:18 EDT 2017
+#@# Intensity Normalization2 Tue Jun 27 22:29:18 EDT 2017
+#@# Mask BFS Tue Jun 27 22:29:18 EDT 2017
+#@# WM Segmentation Tue Jun 27 22:29:19 EDT 2017
+#@# Fill Tue Jun 27 22:29:19 EDT 2017
+#@# Tessellate lh Tue Jun 27 22:29:19 EDT 2017
+#@# Tessellate rh Tue Jun 27 22:29:20 EDT 2017
+#@# Smooth1 lh Tue Jun 27 22:29:20 EDT 2017
+#@# Smooth1 rh Tue Jun 27 22:29:20 EDT 2017
+#@# Inflation1 lh Tue Jun 27 22:29:20 EDT 2017
+#@# Inflation1 rh Tue Jun 27 22:29:21 EDT 2017
+#@# QSphere lh Tue Jun 27 22:29:21 EDT 2017
+#@# QSphere rh Tue Jun 27 22:29:21 EDT 2017
+#@# Fix Topology Copy lh Tue Jun 27 22:29:21 EDT 2017
+#@# Fix Topology Copy rh Tue Jun 27 22:29:22 EDT 2017
+#@# Fix Topology lh Tue Jun 27 22:29:22 EDT 2017
+#@# Fix Topology rh Tue Jun 27 22:29:22 EDT 2017
+#@# Make White Surf lh Tue Jun 27 22:29:22 EDT 2017
+#@# Make White Surf rh Tue Jun 27 22:29:22 EDT 2017
+#@# Smooth2 lh Tue Jun 27 22:29:23 EDT 2017
+#@# Smooth2 rh Tue Jun 27 22:29:23 EDT 2017
+#@# Inflation2 lh Tue Jun 27 22:29:23 EDT 2017
+#@# Inflation2 rh Tue Jun 27 22:29:23 EDT 2017
+#@# Curv .H and .K lh Tue Jun 27 22:29:23 EDT 2017
+#@# Curv .H and .K rh Tue Jun 27 22:29:24 EDT 2017
+#@# Curvature Stats lh Tue Jun 27 22:29:24 EDT 2017
+#@# Curvature Stats rh Tue Jun 27 22:29:24 EDT 2017
+#@# Sphere lh Tue Jun 27 22:29:24 EDT 2017
+#@# Sphere rh Tue Jun 27 22:29:25 EDT 2017
+#@# Surf Reg lh Tue Jun 27 22:29:25 EDT 2017
+#@# Surf Reg rh Tue Jun 27 22:29:25 EDT 2017
+#@# Jacobian white lh Tue Jun 27 22:29:25 EDT 2017
+#@# Jacobian white rh Tue Jun 27 22:29:25 EDT 2017
+#@# AvgCurv lh Tue Jun 27 22:29:26 EDT 2017
+#@# AvgCurv rh Tue Jun 27 22:29:26 EDT 2017
+#@# Cortical Parc lh Tue Jun 27 22:29:26 EDT 2017
+#@# Cortical Parc rh Tue Jun 27 22:29:26 EDT 2017
+#@# Make Pial Surf lh Tue Jun 27 22:29:26 EDT 2017
+#@# Make Pial Surf rh Tue Jun 27 22:29:27 EDT 2017
+#@# Refine Pial Surfs w/ T2/FLAIR Tue Jun 27 22:29:27 EDT 2017
+#@# Surf Volume lh Tue Jun 27 22:29:28 EDT 2017
+#@# Surf Volume rh Tue Jun 27 22:29:28 EDT 2017
+#@# Cortical ribbon mask Tue Jun 27 22:29:28 EDT 2017
+#@# Parcellation Stats lh Tue Jun 27 22:29:29 EDT 2017
+#@# Parcellation Stats rh Tue Jun 27 22:29:29 EDT 2017
+#@# Cortical Parc 2 lh Tue Jun 27 22:29:29 EDT 2017
+#@# Cortical Parc 2 rh Tue Jun 27 22:29:29 EDT 2017
+#@# Parcellation Stats 2 lh Tue Jun 27 22:29:30 EDT 2017
+#@# Parcellation Stats 2 rh Tue Jun 27 22:29:30 EDT 2017
+#@# Cortical Parc 3 lh Tue Jun 27 22:29:30 EDT 2017
+#@# Cortical Parc 3 rh Tue Jun 27 22:29:30 EDT 2017
+#@# Parcellation Stats 3 lh Tue Jun 27 22:29:30 EDT 2017
+#@# Parcellation Stats 3 rh Tue Jun 27 22:29:31 EDT 2017
+#@# WM/GM Contrast lh Tue Jun 27 22:29:31 EDT 2017
+#@# WM/GM Contrast rh Tue Jun 27 22:29:31 EDT 2017
+#@# Relabel Hypointensities Tue Jun 27 22:29:31 EDT 2017
+#@# AParc-to-ASeg aparc Tue Jun 27 22:29:31 EDT 2017
+#@# AParc-to-ASeg a2009s Tue Jun 27 22:29:32 EDT 2017
+#@# AParc-to-ASeg DKTatlas Tue Jun 27 22:29:32 EDT 2017
+#@# APas-to-ASeg Tue Jun 27 22:29:32 EDT 2017
+#@# ASeg Stats Tue Jun 27 22:29:32 EDT 2017
+\nINFO: ?h.white surfaces not available to mri_segstats.\n
+#@# WMParc Tue Jun 27 22:29:33 EDT 2017
+#@# BA_exvivo Labels lh Tue Jun 27 22:29:33 EDT 2017
+#@# BA_exvivo Labels rh Tue Jun 27 22:29:35 EDT 2017
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+
+recon-all -s sub.01.dh.01t2 exited with ERRORS at Tue Jun 27 22:29:36 EDT 2017
+
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Tue Jun 27 22:33:53 EDT 2017
+#@# MotionCor Tue Jun 27 22:33:53 EDT 2017
+#@# Talairach Tue Jun 27 22:33:55 EDT 2017
+#@# Talairach Failure Detection Tue Jun 27 22:33:56 EDT 2017
+#@# Nu Intensity Correction Tue Jun 27 22:33:56 EDT 2017
+#@# Intensity Normalization Tue Jun 27 22:33:56 EDT 2017
+#@# Skull Stripping Tue Jun 27 22:33:57 EDT 2017
+#@# EM Registration Tue Jun 27 22:33:57 EDT 2017
+#@# CA Normalize Tue Jun 27 22:33:57 EDT 2017
+#@# CA Reg Tue Jun 27 22:33:58 EDT 2017
+#@# SubCort Seg Tue Jun 27 22:33:58 EDT 2017
+#@# Merge ASeg Tue Jun 27 22:33:58 EDT 2017
+#@# Intensity Normalization2 Tue Jun 27 22:33:58 EDT 2017
+#@# Mask BFS Tue Jun 27 22:33:58 EDT 2017
+#@# WM Segmentation Tue Jun 27 22:33:59 EDT 2017
+#@# Fill Tue Jun 27 22:33:59 EDT 2017
+#@# Tessellate lh Tue Jun 27 22:33:59 EDT 2017
+#@# Tessellate rh Tue Jun 27 22:34:00 EDT 2017
+#@# Smooth1 lh Tue Jun 27 22:34:00 EDT 2017
+#@# Smooth1 rh Tue Jun 27 22:34:01 EDT 2017
+#@# Inflation1 lh Tue Jun 27 22:34:01 EDT 2017
+#@# Inflation1 rh Tue Jun 27 22:34:01 EDT 2017
+#@# QSphere lh Tue Jun 27 22:34:01 EDT 2017
+#@# QSphere rh Tue Jun 27 22:34:01 EDT 2017
+#@# Fix Topology Copy lh Tue Jun 27 22:34:02 EDT 2017
+#@# Fix Topology Copy rh Tue Jun 27 22:34:02 EDT 2017
+#@# Fix Topology lh Tue Jun 27 22:34:02 EDT 2017
+#@# Fix Topology rh Tue Jun 27 22:34:02 EDT 2017
+#@# Make White Surf lh Tue Jun 27 22:34:03 EDT 2017
+#@# Make White Surf rh Tue Jun 27 22:34:03 EDT 2017
+#@# Smooth2 lh Tue Jun 27 22:34:03 EDT 2017
+#@# Smooth2 rh Tue Jun 27 22:34:04 EDT 2017
+#@# Inflation2 lh Tue Jun 27 22:34:04 EDT 2017
+#@# Inflation2 rh Tue Jun 27 22:34:04 EDT 2017
+#@# Curv .H and .K lh Tue Jun 27 22:34:04 EDT 2017
+#@# Curv .H and .K rh Tue Jun 27 22:34:05 EDT 2017
+#@# Curvature Stats lh Tue Jun 27 22:34:05 EDT 2017
+#@# Curvature Stats rh Tue Jun 27 22:34:05 EDT 2017
+#@# Sphere lh Tue Jun 27 22:34:06 EDT 2017
+#@# Sphere rh Tue Jun 27 22:34:06 EDT 2017
+#@# Surf Reg lh Tue Jun 27 22:34:06 EDT 2017
+#@# Surf Reg rh Tue Jun 27 22:34:06 EDT 2017
+#@# Jacobian white lh Tue Jun 27 22:34:06 EDT 2017
+#@# Jacobian white rh Tue Jun 27 22:34:07 EDT 2017
+#@# AvgCurv lh Tue Jun 27 22:34:07 EDT 2017
+#@# AvgCurv rh Tue Jun 27 22:34:07 EDT 2017
+#@# Cortical Parc lh Tue Jun 27 22:34:07 EDT 2017
+#@# Cortical Parc rh Tue Jun 27 22:34:07 EDT 2017
+#@# Make Pial Surf lh Tue Jun 27 22:34:08 EDT 2017
+#@# Make Pial Surf rh Tue Jun 27 22:34:08 EDT 2017
+#@# Refine Pial Surfs w/ T2/FLAIR Tue Jun 27 22:34:08 EDT 2017
+#@# Surf Volume lh Tue Jun 27 22:34:09 EDT 2017
+#@# Surf Volume rh Tue Jun 27 22:34:09 EDT 2017
+#@# Cortical ribbon mask Tue Jun 27 22:34:10 EDT 2017
+#@# Parcellation Stats lh Tue Jun 27 22:34:10 EDT 2017
+#@# Parcellation Stats rh Tue Jun 27 22:34:10 EDT 2017
+#@# Cortical Parc 2 lh Tue Jun 27 22:34:10 EDT 2017
+#@# Cortical Parc 2 rh Tue Jun 27 22:34:11 EDT 2017
+#@# Parcellation Stats 2 lh Tue Jun 27 22:34:11 EDT 2017
+#@# Parcellation Stats 2 rh Tue Jun 27 22:34:11 EDT 2017
+#@# Cortical Parc 3 lh Tue Jun 27 22:34:11 EDT 2017
+#@# Cortical Parc 3 rh Tue Jun 27 22:34:11 EDT 2017
+#@# Parcellation Stats 3 lh Tue Jun 27 22:34:12 EDT 2017
+#@# Parcellation Stats 3 rh Tue Jun 27 22:34:12 EDT 2017
+#@# WM/GM Contrast lh Tue Jun 27 22:34:12 EDT 2017
+#@# WM/GM Contrast rh Tue Jun 27 22:34:12 EDT 2017
+#@# Relabel Hypointensities Tue Jun 27 22:34:12 EDT 2017
+#@# AParc-to-ASeg aparc Tue Jun 27 22:34:13 EDT 2017
+#@# AParc-to-ASeg a2009s Tue Jun 27 22:34:13 EDT 2017
+#@# AParc-to-ASeg DKTatlas Tue Jun 27 22:34:13 EDT 2017
+#@# APas-to-ASeg Tue Jun 27 22:34:13 EDT 2017
+#@# ASeg Stats Tue Jun 27 22:34:13 EDT 2017
+\nINFO: ?h.white surfaces not available to mri_segstats.\n
+#@# WMParc Tue Jun 27 22:34:14 EDT 2017
+#@# BA_exvivo Labels lh Tue Jun 27 22:34:14 EDT 2017
+#@# BA_exvivo Labels rh Tue Jun 27 22:34:16 EDT 2017
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+
+recon-all -s sub.01.dh.01t2 exited with ERRORS at Tue Jun 27 22:34:18 EDT 2017
+
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Tue Jun 27 22:36:34 EDT 2017
+#@# MotionCor Tue Jun 27 22:36:34 EDT 2017
+#@# Talairach Tue Jun 27 22:36:45 EDT 2017
+#@# Talairach Failure Detection Tue Jun 27 22:38:48 EDT 2017
+#@# Nu Intensity Correction Tue Jun 27 22:38:48 EDT 2017
+#@# Intensity Normalization Tue Jun 27 22:40:38 EDT 2017
+#@# Skull Stripping Tue Jun 27 22:42:41 EDT 2017
+#@# EM Registration Tue Jun 27 22:51:01 EDT 2017
+#@# CA Normalize Tue Jun 27 22:58:36 EDT 2017
+#@# CA Reg Tue Jun 27 23:00:24 EDT 2017
+#@# SubCort Seg Wed Jun 28 01:19:52 EDT 2017
+#@# Merge ASeg Wed Jun 28 02:15:16 EDT 2017
+#@# Intensity Normalization2 Wed Jun 28 02:15:16 EDT 2017
+#@# Mask BFS Wed Jun 28 02:18:22 EDT 2017
+#@# WM Segmentation Wed Jun 28 02:18:24 EDT 2017
+#@# Fill Wed Jun 28 02:20:53 EDT 2017
+#@# Tessellate lh Wed Jun 28 02:21:38 EDT 2017
+#@# Tessellate rh Wed Jun 28 02:21:43 EDT 2017
+#@# Smooth1 lh Wed Jun 28 02:21:49 EDT 2017
+#@# Smooth1 rh Wed Jun 28 02:21:49 EDT 2017
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+
+recon-all -s sub.01.dh.01t2 exited with ERRORS at Wed Jun 28 02:21:49 EDT 2017
+
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:52:21 EDT 2017
+#@# Smooth1 lh Wed Jun 28 12:52:21 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:53:11 EDT 2017
+#@# Smooth1 lh Wed Jun 28 12:53:11 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Wed Jun 28 12:53:20 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:53:21 EDT 2017
+#@# Smooth1 rh Wed Jun 28 12:53:21 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Wed Jun 28 12:53:30 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:53:31 EDT 2017
+#@# Inflation1 lh Wed Jun 28 12:53:31 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Wed Jun 28 12:53:49 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:53:51 EDT 2017
+#@# Inflation1 rh Wed Jun 28 12:53:51 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Wed Jun 28 12:54:09 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:54:13 EDT 2017
+#@# QSphere lh Wed Jun 28 12:54:14 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Wed Jun 28 12:56:03 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:56:06 EDT 2017
+#@# QSphere rh Wed Jun 28 12:56:06 EDT 2017
+recon-all -s sub.01.dh.01t2 finished without error at Wed Jun 28 12:58:05 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:58:07 EDT 2017
+#@# Fix Topology Copy lh Wed Jun 28 12:58:08 EDT 2017
+#@# Fix Topology lh Wed Jun 28 12:58:08 EDT 2017

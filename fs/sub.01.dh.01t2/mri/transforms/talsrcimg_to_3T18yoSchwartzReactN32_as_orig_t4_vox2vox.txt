@@ -1,0 +1,7 @@
+# AZS
+# compute_vox2vox talsrcimg talsrcimg_to_3T18yoSchwartzReactN32_as_orig_t4 /Volumes/CFMI-CFS/opt/fs6/average/3T18yoSchwartzReactN32_as_orig
+# $Id: compute_vox2vox.c,v 1.3 2010/02/27 01:41:53 nicks Exp $
+  0.883294  0.044082 -0.005217    9.9309
+ -0.033833  0.813956 -0.022807   22.5381
+  0.009017  0.054789  0.903170   -5.7874
+  0.000000  0.000000  0.000000    1.0000

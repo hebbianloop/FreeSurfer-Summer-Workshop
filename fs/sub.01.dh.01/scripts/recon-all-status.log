@@ -1,0 +1,80 @@
+status file for recon-all
+Tue Jun 27 21:56:27 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Tue Jun 27 21:56:37 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Tue Jun 27 22:54:02 EDT 2017
+#@# MotionCor Tue Jun 27 22:54:02 EDT 2017
+#@# Talairach Tue Jun 27 22:54:15 EDT 2017
+#@# Talairach Failure Detection Tue Jun 27 22:56:31 EDT 2017
+#@# Nu Intensity Correction Tue Jun 27 22:56:31 EDT 2017
+#@# Intensity Normalization Tue Jun 27 22:58:32 EDT 2017
+#@# Skull Stripping Tue Jun 27 23:00:43 EDT 2017
+#@# EM Registration Tue Jun 27 23:12:55 EDT 2017
+#@# CA Normalize Tue Jun 27 23:23:04 EDT 2017
+#@# CA Reg Tue Jun 27 23:24:55 EDT 2017
+#@# SubCort Seg Wed Jun 28 01:39:43 EDT 2017
+#@# Merge ASeg Wed Jun 28 02:33:10 EDT 2017
+#@# Intensity Normalization2 Wed Jun 28 02:33:10 EDT 2017
+#@# Mask BFS Wed Jun 28 02:36:10 EDT 2017
+#@# WM Segmentation Wed Jun 28 02:36:11 EDT 2017
+#@# Fill Wed Jun 28 02:38:36 EDT 2017
+#@# Tessellate lh Wed Jun 28 02:39:20 EDT 2017
+#@# Tessellate rh Wed Jun 28 02:39:25 EDT 2017
+#@# Smooth1 lh Wed Jun 28 02:39:30 EDT 2017
+#@# Smooth1 rh Wed Jun 28 02:39:30 EDT 2017
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+
+recon-all -s sub.01.dh.01 exited with ERRORS at Wed Jun 28 02:39:30 EDT 2017
+
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:21:36 EDT 2017
+#@# Smooth1 lh Wed Jun 28 12:21:36 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Wed Jun 28 12:21:45 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:21:47 EDT 2017
+#@# Smooth1 rh Wed Jun 28 12:21:47 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Wed Jun 28 12:21:55 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:21:57 EDT 2017
+#@# Inflation1 lh Wed Jun 28 12:21:57 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Wed Jun 28 12:22:17 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:22:19 EDT 2017
+#@# Inflation1 rh Wed Jun 28 12:22:19 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Wed Jun 28 12:22:40 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:22:42 EDT 2017
+#@# QSphere lh Wed Jun 28 12:22:43 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Wed Jun 28 12:24:41 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:24:43 EDT 2017
+#@# QSphere rh Wed Jun 28 12:24:44 EDT 2017
+recon-all -s sub.01.dh.01 finished without error at Wed Jun 28 12:26:50 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jun 28 12:26:51 EDT 2017
+#@# Fix Topology Copy lh Wed Jun 28 12:26:51 EDT 2017
+#@# Fix Topology lh Wed Jun 28 12:26:52 EDT 2017

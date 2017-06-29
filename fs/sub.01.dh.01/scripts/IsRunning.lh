@@ -1,0 +1,11 @@
+------------------------------
+SUBJECT sub.01.dh.01
+HEMI    lh
+DATE Wed Jun 28 12:26:51 EDT 2017
+USER shad
+HOST trash-can.local
+PROCESSID 92616 
+PROCESSOR x86_64
+OS Darwin
+Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
+$Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
