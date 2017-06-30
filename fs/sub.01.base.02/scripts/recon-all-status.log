@@ -9,3 +9,73 @@ Thu Jun 29 10:07:37 EDT 2017
 #@# Longitudinal Base Subject Creation Thu Jun 29 10:07:38 EDT 2017
 #@# MotionCor Thu Jun 29 10:09:14 EDT 2017
 #@# Talairach Thu Jun 29 10:09:16 EDT 2017
+#@# Talairach Failure Detection Thu Jun 29 10:11:21 EDT 2017
+#@# Nu Intensity Correction Thu Jun 29 10:11:22 EDT 2017
+#@# Intensity Normalization Thu Jun 29 10:13:37 EDT 2017
+#@# Skull Stripping Thu Jun 29 10:16:13 EDT 2017
+#@# EM Registration Thu Jun 29 10:16:28 EDT 2017
+#@# CA Normalize Thu Jun 29 10:26:46 EDT 2017
+#@# CA Reg Thu Jun 29 10:28:17 EDT 2017
+#@# SubCort Seg Thu Jun 29 12:50:31 EDT 2017
+#@# Merge ASeg Thu Jun 29 13:40:51 EDT 2017
+#@# Intensity Normalization2 Thu Jun 29 13:40:51 EDT 2017
+#@# Mask BFS Thu Jun 29 13:44:27 EDT 2017
+#@# WM Segmentation Thu Jun 29 13:44:29 EDT 2017
+#@# Fill Thu Jun 29 13:46:47 EDT 2017
+#@# Tessellate lh Thu Jun 29 13:47:30 EDT 2017
+#@# Tessellate rh Thu Jun 29 13:47:36 EDT 2017
+#@# Smooth1 lh Thu Jun 29 13:47:42 EDT 2017
+#@# Smooth1 rh Thu Jun 29 13:47:51 EDT 2017
+#@# Inflation1 lh Thu Jun 29 13:47:59 EDT 2017
+#@# Inflation1 rh Thu Jun 29 13:48:26 EDT 2017
+#@# QSphere lh Thu Jun 29 13:48:54 EDT 2017
+#@# QSphere rh Thu Jun 29 13:51:50 EDT 2017
+#@# Fix Topology Copy lh Thu Jun 29 13:54:38 EDT 2017
+#@# Fix Topology Copy rh Thu Jun 29 13:54:38 EDT 2017
+#@# Fix Topology lh Thu Jun 29 13:54:38 EDT 2017
+#@# Fix Topology rh Thu Jun 29 14:10:11 EDT 2017
+#@# Make White Surf lh Thu Jun 29 14:20:23 EDT 2017
+#@# Make White Surf rh Thu Jun 29 14:25:16 EDT 2017
+#@# Smooth2 lh Thu Jun 29 14:29:56 EDT 2017
+#@# Smooth2 rh Thu Jun 29 14:30:04 EDT 2017
+#@# Inflation2 lh Thu Jun 29 14:30:12 EDT 2017
+#@# Inflation2 rh Thu Jun 29 14:30:40 EDT 2017
+#@# Curv .H and .K lh Thu Jun 29 14:31:07 EDT 2017
+#@# Curv .H and .K rh Thu Jun 29 14:32:13 EDT 2017
+#@# Curvature Stats lh Thu Jun 29 14:33:18 EDT 2017
+#@# Curvature Stats rh Thu Jun 29 14:33:24 EDT 2017
+#@# Sphere lh Thu Jun 29 14:33:29 EDT 2017
+#@# Sphere rh Thu Jun 29 15:02:57 EDT 2017
+#@# Surf Reg lh Thu Jun 29 15:29:22 EDT 2017
+#@# Surf Reg rh Thu Jun 29 16:14:40 EDT 2017
+#@# Jacobian white lh Thu Jun 29 16:52:25 EDT 2017
+#@# Jacobian white rh Thu Jun 29 16:52:28 EDT 2017
+#@# AvgCurv lh Thu Jun 29 16:52:30 EDT 2017
+#@# AvgCurv rh Thu Jun 29 16:52:32 EDT 2017
+#@# Cortical Parc lh Thu Jun 29 16:52:34 EDT 2017
+#@# Cortical Parc rh Thu Jun 29 16:52:52 EDT 2017
+#@# Make Pial Surf lh Thu Jun 29 16:53:08 EDT 2017
+#@# Make Pial Surf rh Thu Jun 29 17:07:42 EDT 2017
+#@# Surf Volume lh Thu Jun 29 17:21:49 EDT 2017
+#@# Surf Volume rh Thu Jun 29 17:21:54 EDT 2017
+#@# Cortical ribbon mask Thu Jun 29 17:21:57 EDT 2017
+#@# Parcellation Stats lh Thu Jun 29 17:34:30 EDT 2017
+#@# Parcellation Stats rh Thu Jun 29 17:35:45 EDT 2017
+#@# Cortical Parc 2 lh Thu Jun 29 17:37:00 EDT 2017
+#@# Cortical Parc 2 rh Thu Jun 29 17:37:20 EDT 2017
+#@# Parcellation Stats 2 lh Thu Jun 29 17:37:41 EDT 2017
+#@# Parcellation Stats 2 rh Thu Jun 29 17:38:20 EDT 2017
+#@# Cortical Parc 3 lh Thu Jun 29 17:39:00 EDT 2017
+#@# Cortical Parc 3 rh Thu Jun 29 17:39:17 EDT 2017
+#@# Parcellation Stats 3 lh Thu Jun 29 17:39:34 EDT 2017
+#@# Parcellation Stats 3 rh Thu Jun 29 17:40:12 EDT 2017
+#@# Relabel Hypointensities Thu Jun 29 17:40:51 EDT 2017
+#@# AParc-to-ASeg aparc Thu Jun 29 17:41:16 EDT 2017
+#@# AParc-to-ASeg a2009s Thu Jun 29 17:46:17 EDT 2017
+#@# AParc-to-ASeg DKTatlas Thu Jun 29 17:51:19 EDT 2017
+#@# APas-to-ASeg Thu Jun 29 17:56:18 EDT 2017
+#@# ASeg Stats Thu Jun 29 17:56:25 EDT 2017
+#@# WMParc Thu Jun 29 18:00:15 EDT 2017
+#@# BA_exvivo Labels lh Thu Jun 29 18:10:32 EDT 2017
+#@# BA_exvivo Labels rh Thu Jun 29 18:15:47 EDT 2017
+recon-all -s sub.01.base.02 finished without error at Thu Jun 29 18:20:59 EDT 2017
