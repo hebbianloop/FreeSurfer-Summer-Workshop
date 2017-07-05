@@ -1,1 +1,1 @@
-mri_pretess wm.asegedit.mgz wm norm.mgz wm.mgz
+mri_pretess -keep wm.asegedit.mgz wm norm.mgz wm.mgz

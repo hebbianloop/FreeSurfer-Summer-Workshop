@@ -1,9 +1,9 @@
 Logfile for pctsurfcon
-Wed Jun 28 16:06:38 EDT 2017
-setenv SUBJECTS_DIR /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs
-cd /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/scripts
-/Volumes/CFMI-CFS/opt/fs6/bin/pctsurfcon
+Sat Jul  1 00:50:03 EDT 2017
+setenv SUBJECTS_DIR /Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs
+cd /Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/scripts
+/Applications/freesurfer/bin/pctsurfcon
 $Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
-Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
-FREESURFER_HOME /Volumes/CFMI-CFS/opt/fs6
+Darwin CFMI-iMac-02.local 16.6.0 Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64 x86_64
+FREESURFER_HOME /Applications/freesurfer
 Cleaning up

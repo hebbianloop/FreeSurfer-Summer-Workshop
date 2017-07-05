@@ -1,16 +1,16 @@
-/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri
-/Volumes/CFMI-CFS/opt/fs6/bin/mri_nu_correct.mni
---i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --proto-iters 1000 --distance 50 --n 1
-nIters 1
+/Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri
+/Applications/freesurfer/bin/mri_nu_correct.mni
+--i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2
+nIters 2
 $Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
-Darwin trash-can.local 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64 i386 MacPro6,1 Darwin
-Tue Jun 27 22:56:25 EDT 2017
+Darwin CFMI-iMac-02.local 16.6.0 Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64 x86_64
+Wed Jul  5 11:53:13 EDT 2017
 Program nu_correct, built from:
 Package MNI N3, version 1.12.0, compiled by nicks@gust.nmr.mgh.harvard.edu (x86_64-apple-darwin11.4.2) on 2015-06-19 at 15:37:08
-tmpdir is ./tmp.mri_nu_correct.mni.62605
-/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri
-mri_convert orig.mgz ./tmp.mri_nu_correct.mni.62605/nu0.mnc -odt float
-mri_convert.bin orig.mgz ./tmp.mri_nu_correct.mni.62605/nu0.mnc -odt float 
+tmpdir is ./tmp.mri_nu_correct.mni.2947
+/Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri
+mri_convert orig.mgz ./tmp.mri_nu_correct.mni.2947/nu0.mnc -odt float
+mri_convert.bin orig.mgz ./tmp.mri_nu_correct.mni.2947/nu0.mnc -odt float 
 $Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
 reading from orig.mgz...
 TR=1900.00, TE=0.00, TI=0.00, flip angle=0.00
@@ -18,13 +18,13 @@ i_ras = (-1, 0, 0)
 j_ras = (0, 0, -1)
 k_ras = (0, 1, 0)
 changing data type from uchar to float (noscale = 0)...
-writing to ./tmp.mri_nu_correct.mni.62605/nu0.mnc...
+writing to ./tmp.mri_nu_correct.mni.2947/nu0.mnc...
  
 --------------------------------------------------------
-Iteration 1 Tue Jun 27 22:56:28 EDT 2017
-nu_correct -clobber ./tmp.mri_nu_correct.mni.62605/nu0.mnc ./tmp.mri_nu_correct.mni.62605/nu1.mnc -tmpdir ./tmp.mri_nu_correct.mni.62605/0/ -iterations 1000 -distance 50
-[shad@trash-can.local:/Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/] [2017-06-27 22:56:28] running:
-  /Volumes/CFMI-CFS/opt/fs6/mni/bin/nu_estimate_np_and_em -parzen -log -sharpen 0.15 0.01 -iterations 1000 -stop 0.001 -shrink 4 -auto_mask -nonotify -b_spline 1.0e-7 -distance 50 -quiet -execute -clobber -nokeeptmp -tmpdir ./tmp.mri_nu_correct.mni.62605/0/ ./tmp.mri_nu_correct.mni.62605/nu0.mnc ./tmp.mri_nu_correct.mni.62605/nu1.imp
+Iteration 1 Wed Jul  5 11:53:20 EDT 2017
+nu_correct -clobber ./tmp.mri_nu_correct.mni.2947/nu0.mnc ./tmp.mri_nu_correct.mni.2947/nu1.mnc -tmpdir ./tmp.mri_nu_correct.mni.2947/0/
+[cfmiadmin0@CFMI-iMac-02.local:/Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/] [2017-07-05 11:53:20] running:
+  /Applications/freesurfer/mni/bin/nu_estimate_np_and_em -parzen -log -sharpen 0.15 0.01 -iterations 50 -stop 0.001 -shrink 4 -auto_mask -nonotify -b_spline 1.0e-7 -distance 200 -quiet -execute -clobber -nokeeptmp -tmpdir ./tmp.mri_nu_correct.mni.2947/0/ ./tmp.mri_nu_correct.mni.2947/nu0.mnc ./tmp.mri_nu_correct.mni.2947/nu1.imp
 
 Processing:.................................................................Done
 Processing:.................................................................Done
@@ -69,32 +69,58 @@ Processing:.................................................................Done
 Processing:.................................................................Done
 Processing:.................................................................Done
 Processing:.................................................................Done
+Number of iterations: 43 
+CV of field change: 0.000996909
+ 
+ 
+--------------------------------------------------------
+Iteration 2 Wed Jul  5 11:54:19 EDT 2017
+nu_correct -clobber ./tmp.mri_nu_correct.mni.2947/nu1.mnc ./tmp.mri_nu_correct.mni.2947/nu2.mnc -tmpdir ./tmp.mri_nu_correct.mni.2947/1/
+[cfmiadmin0@CFMI-iMac-02.local:/Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri/] [2017-07-05 11:54:20] running:
+  /Applications/freesurfer/mni/bin/nu_estimate_np_and_em -parzen -log -sharpen 0.15 0.01 -iterations 50 -stop 0.001 -shrink 4 -auto_mask -nonotify -b_spline 1.0e-7 -distance 200 -quiet -execute -clobber -nokeeptmp -tmpdir ./tmp.mri_nu_correct.mni.2947/1/ ./tmp.mri_nu_correct.mni.2947/nu1.mnc ./tmp.mri_nu_correct.mni.2947/nu2.imp
+
 Processing:.................................................................Done
 Processing:.................................................................Done
 Processing:.................................................................Done
 Processing:.................................................................Done
 Processing:.................................................................Done
 Processing:.................................................................Done
-Number of iterations: 49 
-CV of field change: 0.000997422
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Processing:.................................................................Done
+Number of iterations: 22 
+CV of field change: 0.000948311
  
  
  
-mri_binarize --i ./tmp.mri_nu_correct.mni.62605/nu1.mnc --min -1 --o ./tmp.mri_nu_correct.mni.62605/ones.mgz
+mri_binarize --i ./tmp.mri_nu_correct.mni.2947/nu2.mnc --min -1 --o ./tmp.mri_nu_correct.mni.2947/ones.mgz
 
 $Id: mri_binarize.c,v 1.43 2016/06/09 20:46:21 greve Exp $
-cwd /Volumes/CFMI-CFS/sync/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri
-cmdline mri_binarize.bin --i ./tmp.mri_nu_correct.mni.62605/nu1.mnc --min -1 --o ./tmp.mri_nu_correct.mni.62605/ones.mgz 
+cwd /Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/mri
+cmdline mri_binarize.bin --i ./tmp.mri_nu_correct.mni.2947/nu2.mnc --min -1 --o ./tmp.mri_nu_correct.mni.2947/ones.mgz 
 sysname  Darwin
-hostname trash-can.local
+hostname CFMI-iMac-02.local
 machine  x86_64
-user     shad
+user     cfmiadmin0
 
-input      ./tmp.mri_nu_correct.mni.62605/nu1.mnc
+input      ./tmp.mri_nu_correct.mni.2947/nu2.mnc
 frame      0
 nErode3d   0
 nErode2d   0
-output     ./tmp.mri_nu_correct.mni.62605/ones.mgz
+output     ./tmp.mri_nu_correct.mni.2947/ones.mgz
 Binarizing based on threshold
 min        -1
 max        +infinity
@@ -106,17 +132,17 @@ Counting number of voxels in first frame
 Found 16777216 voxels in final mask
 Count: 16777216 16777216.000000 16777216 100.000000
 mri_binarize done
-mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.62605/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.62605/sum.junk --avgwf ./tmp.mri_nu_correct.mni.62605/input.mean.dat
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.2947/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.2947/sum.junk --avgwf ./tmp.mri_nu_correct.mni.2947/input.mean.dat
 
 $Id: mri_segstats.c,v 1.121 2016/05/31 17:27:11 greve Exp $
 cwd 
-cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.62605/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.62605/sum.junk --avgwf ./tmp.mri_nu_correct.mni.62605/input.mean.dat 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.2947/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.2947/sum.junk --avgwf ./tmp.mri_nu_correct.mni.2947/input.mean.dat 
 sysname  Darwin
-hostname trash-can.local
+hostname CFMI-iMac-02.local
 machine  x86_64
-user     shad
+user     cfmiadmin0
 UseRobust  0
-Loading ./tmp.mri_nu_correct.mni.62605/ones.mgz
+Loading ./tmp.mri_nu_correct.mni.2947/ones.mgz
 Loading orig.mgz
 Voxel Volume is 1 mm^3
 Generating list of segmentation ids
@@ -127,20 +153,20 @@ Reporting on   1 segmentations
 Using PrintSegStat
 Computing spatial average of each frame
   0
-Writing to ./tmp.mri_nu_correct.mni.62605/input.mean.dat
+Writing to ./tmp.mri_nu_correct.mni.2947/input.mean.dat
 mri_segstats done
-mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.62605/ones.mgz --i ./tmp.mri_nu_correct.mni.62605/nu1.mnc --sum ./tmp.mri_nu_correct.mni.62605/sum.junk --avgwf ./tmp.mri_nu_correct.mni.62605/output.mean.dat
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.2947/ones.mgz --i ./tmp.mri_nu_correct.mni.2947/nu2.mnc --sum ./tmp.mri_nu_correct.mni.2947/sum.junk --avgwf ./tmp.mri_nu_correct.mni.2947/output.mean.dat
 
 $Id: mri_segstats.c,v 1.121 2016/05/31 17:27:11 greve Exp $
 cwd 
-cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.62605/ones.mgz --i ./tmp.mri_nu_correct.mni.62605/nu1.mnc --sum ./tmp.mri_nu_correct.mni.62605/sum.junk --avgwf ./tmp.mri_nu_correct.mni.62605/output.mean.dat 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.2947/ones.mgz --i ./tmp.mri_nu_correct.mni.2947/nu2.mnc --sum ./tmp.mri_nu_correct.mni.2947/sum.junk --avgwf ./tmp.mri_nu_correct.mni.2947/output.mean.dat 
 sysname  Darwin
-hostname trash-can.local
+hostname CFMI-iMac-02.local
 machine  x86_64
-user     shad
+user     cfmiadmin0
 UseRobust  0
-Loading ./tmp.mri_nu_correct.mni.62605/ones.mgz
-Loading ./tmp.mri_nu_correct.mni.62605/nu1.mnc
+Loading ./tmp.mri_nu_correct.mni.2947/ones.mgz
+Loading ./tmp.mri_nu_correct.mni.2947/nu2.mnc
 Voxel Volume is 1 mm^3
 Generating list of segmentation ids
 Found   1 segmentations
@@ -150,13 +176,13 @@ Reporting on   1 segmentations
 Using PrintSegStat
 Computing spatial average of each frame
   0
-Writing to ./tmp.mri_nu_correct.mni.62605/output.mean.dat
+Writing to ./tmp.mri_nu_correct.mni.2947/output.mean.dat
 mri_segstats done
-mris_calc -o ./tmp.mri_nu_correct.mni.62605/nu1.mnc ./tmp.mri_nu_correct.mni.62605/nu1.mnc mul .98531212396014511676
-mri_convert ./tmp.mri_nu_correct.mni.62605/nu1.mnc nu.mgz --like orig.mgz
-mri_convert.bin ./tmp.mri_nu_correct.mni.62605/nu1.mnc nu.mgz --like orig.mgz 
+mris_calc -o ./tmp.mri_nu_correct.mni.2947/nu2.mnc ./tmp.mri_nu_correct.mni.2947/nu2.mnc mul 1.00732898056571596842
+mri_convert ./tmp.mri_nu_correct.mni.2947/nu2.mnc nu.mgz --like orig.mgz
+mri_convert.bin ./tmp.mri_nu_correct.mni.2947/nu2.mnc nu.mgz --like orig.mgz 
 $Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
-reading from ./tmp.mri_nu_correct.mni.62605/nu1.mnc...
+reading from ./tmp.mri_nu_correct.mni.2947/nu2.mnc...
 TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
 i_ras = (-1, 0, 0)
 j_ras = (0, 0, -1)
@@ -164,9 +190,9 @@ k_ras = (0, 1, 0)
 INFO: transform src into the like-volume: orig.mgz
 writing to nu.mgz...
 mri_make_uchar nu.mgz transforms/talairach.xfm nu.mgz
-type change took 0 minutes and 9 seconds.
-mapping ( 7, 108) to ( 3, 110)
+type change took 0 minutes and 13 seconds.
+mapping ( 7, 111) to ( 3, 110)
  
  
-Tue Jun 27 22:58:17 EDT 2017
+Wed Jul  5 11:56:08 EDT 2017
 mri_nu_correct.mni done
