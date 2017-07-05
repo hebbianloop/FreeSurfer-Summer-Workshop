@@ -502,3 +502,31 @@ New invocation of recon-all
 status file for recon-all
 Wed Jul  5 11:56:11 EDT 2017
 #@# Intensity Normalization Wed Jul  5 11:56:11 EDT 2017
+recon-all -s sub.01.bl.02 finished without error at Wed Jul  5 11:59:41 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul  5 11:59:42 EDT 2017
+#@# Skull Stripping Wed Jul  5 11:59:42 EDT 2017
+recon-all -s sub.01.bl.02 finished without error at Wed Jul  5 12:00:29 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul  5 12:00:30 EDT 2017
+#@# EM Registration Wed Jul  5 12:00:30 EDT 2017
+recon-all -s sub.01.bl.02 finished without error at Wed Jul  5 12:17:06 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul  5 12:17:07 EDT 2017
+#@# CA Normalize Wed Jul  5 12:17:07 EDT 2017
+recon-all -s sub.01.bl.02 finished without error at Wed Jul  5 12:19:29 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul  5 12:19:30 EDT 2017
+#@# CA Reg Wed Jul  5 12:19:30 EDT 2017

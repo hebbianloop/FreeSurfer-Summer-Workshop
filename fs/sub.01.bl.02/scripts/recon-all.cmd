@@ -705,3 +705,27 @@ INFO: Creating symlink to fsaverage subject...
 #--------------------------------------------
 #@# Intensity Normalization Wed Jul  5 11:56:11 EDT 2017
 \n mri_normalize -g 1 -mprage nu.mgz T1.mgz \n
+\n\n#---------------------------------
+# New invocation of recon-all Wed Jul  5 11:59:42 EDT 2017 
+#--------------------------------------------
+#@# Skull Stripping Wed Jul  5 11:59:42 EDT 2017
+\n mri_watershed -rusage /Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/touch/rusage.mri_watershed.dat -keep brainmask.auto.mgz brainmask.mgz brainmask.mgz -T1 -brain_atlas /Applications/freesurfer/average/RB_all_withskull_2016-05-10.vc700.gca transforms/talairach_with_skull.lta T1.mgz brainmask.auto.mgz \n
+\nINFO: brainmask.mgz already exists!
+The new brainmask.auto.mgz will not be copied to brainmask.mgz.
+This is done to retain any edits made to brainmask.mgz.
+Add the -clean-bm flag to recon-all to overwrite brainmask.mgz.\n
+\n\n#---------------------------------
+# New invocation of recon-all Wed Jul  5 12:00:30 EDT 2017 
+#-------------------------------------
+#@# EM Registration Wed Jul  5 12:00:30 EDT 2017
+\n mri_em_register -rusage /Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/touch/rusage.mri_em_register.dat -uns 3 -mask brainmask.mgz nu.mgz /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca transforms/talairach.lta \n
+\n\n#---------------------------------
+# New invocation of recon-all Wed Jul  5 12:17:07 EDT 2017 
+#--------------------------------------
+#@# CA Normalize Wed Jul  5 12:17:07 EDT 2017
+\n mri_ca_normalize -c ctrl_pts.mgz -mask brainmask.mgz nu.mgz /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca transforms/talairach.lta norm.mgz \n
+\n\n#---------------------------------
+# New invocation of recon-all Wed Jul  5 12:19:30 EDT 2017 
+#--------------------------------------
+#@# CA Reg Wed Jul  5 12:19:30 EDT 2017
+\n mri_ca_register -rusage /Users/cfmiadmin0/Documents/GitHub/FreeSurfer-Summer-Workshop/fs/sub.01.bl.02/touch/rusage.mri_ca_register.dat -nobigventricles -T transforms/talairach.lta -align-after -mask brainmask.mgz norm.mgz /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca transforms/talairach.m3z \n
