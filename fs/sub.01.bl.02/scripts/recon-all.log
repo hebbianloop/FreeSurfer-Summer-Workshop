@@ -17989,3 +17989,5 @@ enabling zero nodes
 setting smoothness coefficient to 0.039
 blurring input image with Gaussian with sigma=2.000...
 0000: dt=0.000, rms=0.797, neg=0, invalid=762
+0001: dt=175.279279, rms=0.724 (9.170%), neg=0, invalid=762
+0002: dt=195.764706, rms=0.703 (2.825%), neg=0, invalid=762
