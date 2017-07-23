@@ -1,0 +1,1 @@
+mri_ca_normalize -long aseg_sub.01.base.03.mgz -mask brainmask.mgz nu.mgz /Applications/freesurfer//average/RB_all_2016-05-10.vc700.gca transforms/talairach.lta norm.mgz

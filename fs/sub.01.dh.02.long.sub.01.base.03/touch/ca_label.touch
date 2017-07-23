@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/mri/transforms/cc_up.lta sub.01.dh.02.long.sub.01.base.03

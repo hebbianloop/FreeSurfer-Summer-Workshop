@@ -1,0 +1,1 @@
+mri_surf2surf --prune --s fsaverage --hemi rh --fwhm 7 --sval rh.thickness.fsaverage.mgh --tval rh.thickness.fwhm7.fsaverage.mgh --cortex

@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub.01.bl.01.long.sub.01.base.03
+START_TIME Sun Jul 23 13:29:48 EDT 2017
+END_TIME Sun Jul 23 13:30:15 EDT 2017
+RUNTIME_HOURS 0.007
+USER seldamat
+HOST 192.168.1.110
+PROCESSOR x86_64
+OS Darwin
+UNAME Darwin 192.168.1.110 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64
+VERSION $Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+CMDPATH /Applications/freesurfer//bin/recon-all
+CMDARGS -long sub.01.bl.01 sub.01.base.03 -qcache -measure thickness -fwhm 7

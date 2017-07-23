@@ -1,0 +1,1 @@
+mri_aparc2aseg --s sub.01.dh.02.long.sub.01.base.03 --labelwm --hypo-as-wm --rip-unknown --volmask --o mri/wmparc.mgz --ctxseg aparc+aseg.mgz

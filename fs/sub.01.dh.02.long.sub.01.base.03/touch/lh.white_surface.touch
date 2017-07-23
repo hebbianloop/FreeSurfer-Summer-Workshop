@@ -1,0 +1,1 @@
+mris_make_surfaces -orig_white orig_white -orig orig_white -long -max 3.5 -aseg ../mri/aseg.presurf -white white.preaparc -noaparc -whiteonly -mgz -T1 brain.finalsurfs sub.01.dh.02.long.sub.01.base.03 lh

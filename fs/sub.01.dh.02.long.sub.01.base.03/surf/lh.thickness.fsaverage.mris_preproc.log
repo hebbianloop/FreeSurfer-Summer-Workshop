@@ -1,0 +1,86 @@
+Sun Jul 23 13:30:24 EDT 2017
+setenv SUBJECTS_DIR /Users/seldamat/FreeSurfer-Summer-Workshop/fs
+cd /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf
+/Applications/freesurfer//bin/mris_preproc --s sub.01.dh.02.long.sub.01.base.03 --hemi lh --meas thickness --target fsaverage --out lh.thickness.fsaverage.mgh
+
+Darwin 192.168.1.110 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64
+$Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+freesurfer-Darwin-OSX-stable-pub-v6.0.0-2beb96c
+tmpdir is ./tmp.mris_preproc.18441
+Src lh sphere.reg
+Trg lh sphere.reg
+
+\n\n
+---------------------------------------------------
+#@# 1/1 sub.01.dh.02.long.sub.01.base.03 Sun Jul 23 13:30:24 EDT 2017 --------------
+-----------------------
+mri_surf2surf --srcsubject sub.01.dh.02.long.sub.01.base.03 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.18441/sub.01.dh.02.long.sub.01.base.03.1.mgh --sval /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf/lh.thickness --sfmt curv --noreshape --cortex
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+
+$Id: mri_surf2surf.c,v 1.103 2015/11/05 22:07:33 greve Exp $
+
+setenv SUBJECTS_DIR /Users/seldamat/FreeSurfer-Summer-Workshop/fs
+cd /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf
+mri_surf2surf --srcsubject sub.01.dh.02.long.sub.01.base.03 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.18441/sub.01.dh.02.long.sub.01.base.03.1.mgh --sval /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf/lh.thickness --sfmt curv --noreshape --cortex 
+
+sysname  Darwin
+hostname 192.168.1.110
+machine  x86_64
+user     seldamat
+srcsubject = sub.01.dh.02.long.sub.01.base.03
+srcval     = /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf/lh.thickness
+srctype    = curv
+trgsubject = fsaverage
+trgval     = ./tmp.mris_preproc.18441/sub.01.dh.02.long.sub.01.base.03.1.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = lh.cortex.label
+label-trg  = lh.cortex.label
+OKToRevFaceOrder  = 1
+UseDualHemi = 0
+Reading source surface reg /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf/lh.sphere.reg
+Loading source data
+Reading curvature file /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/surf/lh.thickness
+Reading source subject label mask lh.cortex.label
+masking the input
+Reading target surface reg /Users/seldamat/FreeSurfer-Summer-Workshop/fs/fsaverage/surf/lh.sphere.reg
+Done
+Using surf2surf_nnfr()
+Mapping Source Volume onto Source Subject Surface
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (128600)
+Reverse Loop had 18147 hits
+Surf2Surf: Dividing by number of hits (163842)
+INFO: nSrcLost = 0
+nTrg121 = 149261, nTrgMulti = 14581, MnTrgMultiHits = 2.24456
+nSrc121 = 87811, nSrcLost =     0, nSrcMulti = 40789, MnSrcMultiHits = 2.30891
+Reading target space mask label lh.cortex.label
+masking the input
+Saving target data
+Saving to ./tmp.mris_preproc.18441/sub.01.dh.02.long.sub.01.base.03.1.mgh
+\n\n
+-----------------------
+mri_concat ./tmp.mris_preproc.18441/sub.01.dh.02.long.sub.01.base.03.1.mgh --o lh.thickness.fsaverage.mgh
+ninputs = 1
+Checking inputs
+nframestot = 1
+Allocing output
+Done allocing
+nframes = 1
+Writing to lh.thickness.fsaverage.mgh
+\n\n
+Cleaning up
+-----------------------
+rm -r ./tmp.mris_preproc.18441
+Sun Jul 23 13:30:30 EDT 2017
+mris_preproc done

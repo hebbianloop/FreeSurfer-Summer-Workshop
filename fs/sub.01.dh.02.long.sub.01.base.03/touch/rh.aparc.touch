@@ -1,0 +1,1 @@
+mris_ca_label -l ../label/rh.cortex.label -aseg ../mri/aseg.presurf.mgz -seed 1234 -long -R /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.base.03/label/rh.aparc.annot sub.01.dh.02.long.sub.01.base.03 rh ../surf/rh.sphere.reg /Applications/freesurfer//average/rh.DKaparc.atlas.acfb40.noaparc.i12.2016-08-02.gcs ../label/rh.aparc.annot

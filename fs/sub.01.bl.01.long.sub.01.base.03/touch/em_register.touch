@@ -1,0 +1,1 @@
+cp -vf /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.base.03/mri/transforms/talairach.lta transforms/talairach.lta

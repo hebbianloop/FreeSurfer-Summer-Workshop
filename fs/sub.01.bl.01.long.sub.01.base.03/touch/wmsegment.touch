@@ -1,0 +1,1 @@
+mri_mask -transfer 255 -keep_mask_deletion_edits -xform /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.base.03/mri/transforms/sub.01.bl.01_to_sub.01.base.03.lta wm.mgz /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.bl.01/mri/wm.mgz wm.mgz

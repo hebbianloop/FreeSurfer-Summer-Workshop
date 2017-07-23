@@ -1,0 +1,74 @@
+status file for recon-all
+Sun Jul 23 02:15:36 EDT 2017
+#@# MotionCor Sun Jul 23 02:15:36 EDT 2017
+#@# Talairach Sun Jul 23 02:16:04 EDT 2017
+#@# Talairach Failure Detection Sun Jul 23 02:16:06 EDT 2017
+#@# Nu Intensity Correction Sun Jul 23 02:16:06 EDT 2017
+#@# Intensity Normalization Sun Jul 23 02:18:07 EDT 2017
+#@# Skull Stripping Sun Jul 23 02:21:42 EDT 2017
+#@# EM Registration Sun Jul 23 02:21:47 EDT 2017
+#@# CA Normalize Sun Jul 23 02:21:47 EDT 2017
+#@# CA Reg Sun Jul 23 02:23:36 EDT 2017
+#@# SubCort Seg Sun Jul 23 03:01:26 EDT 2017
+#@# Merge ASeg Sun Jul 23 03:07:47 EDT 2017
+#@# Intensity Normalization2 Sun Jul 23 03:07:47 EDT 2017
+#@# Mask BFS Sun Jul 23 03:11:43 EDT 2017
+#@# WM Segmentation Sun Jul 23 03:11:45 EDT 2017
+#@# Fill Sun Jul 23 03:14:21 EDT 2017
+#@# Make White Surf lh Sun Jul 23 03:15:11 EDT 2017
+#@# Make White Surf rh Sun Jul 23 03:15:11 EDT 2017
+#@# Smooth2 lh Sun Jul 23 03:20:20 EDT 2017
+#@# Smooth2 rh Sun Jul 23 03:20:21 EDT 2017
+#@# Inflation2 lh Sun Jul 23 03:20:29 EDT 2017
+#@# Inflation2 rh Sun Jul 23 03:20:29 EDT 2017
+#@# Curv .H and .K lh Sun Jul 23 03:21:08 EDT 2017
+#@# Curv .H and .K rh Sun Jul 23 03:21:08 EDT 2017
+#@# Curvature Stats lh Sun Jul 23 03:22:26 EDT 2017
+#@# Curvature Stats rh Sun Jul 23 03:22:32 EDT 2017
+#@# Sphere lh Sun Jul 23 03:22:37 EDT 2017
+#@# Sphere rh Sun Jul 23 03:22:37 EDT 2017
+#@# Surf Reg lh Sun Jul 23 03:22:37 EDT 2017
+#@# Surf Reg rh Sun Jul 23 03:22:37 EDT 2017
+#@# Jacobian white lh Sun Jul 23 03:41:14 EDT 2017
+#@# Jacobian white rh Sun Jul 23 03:41:14 EDT 2017
+#@# AvgCurv lh Sun Jul 23 03:41:17 EDT 2017
+#@# AvgCurv rh Sun Jul 23 03:41:17 EDT 2017
+#@# Cortical Parc lh Sun Jul 23 03:41:19 EDT 2017
+#@# Cortical Parc rh Sun Jul 23 03:41:19 EDT 2017
+#@# Make Pial Surf lh Sun Jul 23 03:41:37 EDT 2017
+#@# Make Pial Surf rh Sun Jul 23 03:41:37 EDT 2017
+#@# Surf Volume lh Sun Jul 23 03:56:29 EDT 2017
+#@# Surf Volume rh Sun Jul 23 03:56:32 EDT 2017
+#@# Cortical ribbon mask Sun Jul 23 03:56:36 EDT 2017
+#@# Parcellation Stats lh Sun Jul 23 04:12:45 EDT 2017
+#@# Parcellation Stats rh Sun Jul 23 04:12:45 EDT 2017
+#@# Cortical Parc 2 lh Sun Jul 23 04:14:41 EDT 2017
+#@# Cortical Parc 2 rh Sun Jul 23 04:14:41 EDT 2017
+#@# Parcellation Stats 2 lh Sun Jul 23 04:15:01 EDT 2017
+#@# Parcellation Stats 2 rh Sun Jul 23 04:15:01 EDT 2017
+#@# Cortical Parc 3 lh Sun Jul 23 04:16:04 EDT 2017
+#@# Cortical Parc 3 rh Sun Jul 23 04:16:04 EDT 2017
+#@# Parcellation Stats 3 lh Sun Jul 23 04:16:22 EDT 2017
+#@# Parcellation Stats 3 rh Sun Jul 23 04:16:22 EDT 2017
+#@# WM/GM Contrast lh Sun Jul 23 04:17:23 EDT 2017
+#@# WM/GM Contrast rh Sun Jul 23 04:17:23 EDT 2017
+#@# Relabel Hypointensities Sun Jul 23 04:17:32 EDT 2017
+#@# AParc-to-ASeg aparc Sun Jul 23 04:18:00 EDT 2017
+#@# AParc-to-ASeg a2009s Sun Jul 23 04:18:00 EDT 2017
+#@# AParc-to-ASeg DKTatlas Sun Jul 23 04:18:00 EDT 2017
+#@# APas-to-ASeg Sun Jul 23 04:29:19 EDT 2017
+#@# ASeg Stats Sun Jul 23 04:29:27 EDT 2017
+#@# WMParc Sun Jul 23 04:31:30 EDT 2017
+#@# BA_exvivo Labels lh Sun Jul 23 04:40:07 EDT 2017
+#@# BA_exvivo Labels rh Sun Jul 23 04:43:44 EDT 2017
+recon-all -s sub.01.bl.01.long.sub.01.base.03 finished without error at Sun Jul 23 04:47:16 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Sun Jul 23 13:29:51 EDT 2017
+#@# Qdec Cache preproc lh thickness fsaverage Sun Jul 23 13:29:51 EDT 2017
+#@# Qdec Cache preproc rh thickness fsaverage Sun Jul 23 13:29:58 EDT 2017
+#@# Qdec Cache surf2surf lh thickness fwhm7 fsaverage Sun Jul 23 13:30:04 EDT 2017
+#@# Qdec Cache surf2surf rh thickness fwhm7 fsaverage Sun Jul 23 13:30:10 EDT 2017
+recon-all -s sub.01.bl.01.long.sub.01.base.03 finished without error at Sun Jul 23 13:30:15 EDT 2017

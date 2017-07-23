@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub.01.base.03
+START_TIME Sat Jul 22 09:18:41 EDT 2017
+END_TIME Sat Jul 22 13:47:10 EDT 2017
+RUNTIME_HOURS 4.475
+USER seldamat
+HOST 192.168.1.110
+PROCESSOR x86_64
+OS Darwin
+UNAME Darwin 192.168.1.110 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64
+VERSION $Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+CMDPATH /Applications/freesurfer//bin/recon-all
+CMDARGS -s sub.01.base.03 -autorecon-pial -base sub.01.base.03 -tp sub.01.bl.01 -tp sub.01.dh.02

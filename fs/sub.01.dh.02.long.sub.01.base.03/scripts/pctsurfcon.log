@@ -1,0 +1,17 @@
+Logfile for pctsurfcon
+Sun Jul 23 11:48:48 EDT 2017
+Sun Jul 23 11:48:48 EDT 2017
+setenv SUBJECTS_DIR /Users/seldamat/FreeSurfer-Summer-Workshop/fs
+setenv SUBJECTS_DIR /Users/seldamat/FreeSurfer-Summer-Workshop/fs
+cd /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/scripts
+cd /Users/seldamat/FreeSurfer-Summer-Workshop/fs/sub.01.dh.02.long.sub.01.base.03/scripts
+/Applications/freesurfer//bin/pctsurfcon
+/Applications/freesurfer//bin/pctsurfcon
+$Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+$Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+Darwin 192.168.1.110 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64
+Darwin 192.168.1.110 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64
+FREESURFER_HOME /Applications/freesurfer/
+FREESURFER_HOME /Applications/freesurfer/
+Cleaning up
+Cleaning up
